@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: "https://demoyoguinetcore.azurewebsites.net"
+  apiUrl: "https://demoyoguinetcore.azurewebsites.net/api"
 };
 
 /*
