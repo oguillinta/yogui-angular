@@ -38,14 +38,14 @@ export class StudentFormComponent implements OnInit {
   AddStudent(): void {
     this.service.addStudent(this.student).subscribe(student => {
       console.log(student);
-      this.router.navigate(['/']);
+      this.router.navigate(['/student']);
     });
   }
 
   EditStudent(): void {
     this.service.updateStudent(this.student).subscribe(student => {
       console.log(student);
-      this.router.navigate(['/']);
+      this.router.navigate(['/student']);
     });
   }
 
